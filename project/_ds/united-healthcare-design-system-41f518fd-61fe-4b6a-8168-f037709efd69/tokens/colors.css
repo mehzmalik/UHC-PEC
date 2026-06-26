@@ -1,0 +1,86 @@
+/* ============================================================
+   UHC Color Tokens
+   Source: official UHC brand color palette
+   ============================================================ */
+
+:root {
+  /* --- Primary palette --- */
+  --uhc-blue: #002677;        /* Pantone 2147 C — the brand anchor */
+  --uhc-white: #ffffff;
+  --uhc-warm-white: #faf8f2;  /* warm off-white background */
+
+  /* --- Supporting / accent palette ---
+     Used as accents to bring warmth & humanity to imagery + graphics. */
+  --uhc-sky-blue: #d9f6fa;    /* Pantone 3115 C @ 20% tint */
+  --uhc-bright-blue: #00bed5; /* Pantone 3115 C */
+  --uhc-gold: #f5b700;        /* Pantone 3514 C */
+  --uhc-orange: #ff612b;      /* Pantone 165 C */
+
+  /* --- Extended neutral ramp (derived for UI use) ---
+     Cool blue-grey neutrals that harmonize with UHC Blue. */
+  --uhc-ink: #0c1a36;         /* near-black, text on light */
+  --uhc-gray-900: #1c2b4a;
+  --uhc-gray-800: #2f3f5e;
+  --uhc-gray-700: #4a5a78;
+  --uhc-gray-600: #6a7894;
+  --uhc-gray-500: #8c98b0;
+  --uhc-gray-400: #b3bccb;
+  --uhc-gray-300: #d2d8e2;
+  --uhc-gray-200: #e6eaf0;
+  --uhc-gray-100: #f1f3f7;
+  --uhc-gray-50:  #f8f9fb;
+
+  /* --- Tints of UHC Blue (for surfaces, hovers, fills) --- */
+  --uhc-blue-700: #001b54;    /* darker — press / deep surface */
+  --uhc-blue-600: #002677;    /* base brand blue */
+  --uhc-blue-500: #1a3d8f;    /* hover for primary */
+  --uhc-blue-100: #e5eaf4;    /* very light blue surface */
+  --uhc-blue-50:  #f2f5fb;
+
+  /* --- Semantic status colors (derived to fit the palette) --- */
+  --uhc-success: #1f8a4d;
+  --uhc-success-bg: #e6f4ec;
+  --uhc-warning: #f5b700;     /* brand gold */
+  --uhc-warning-bg: #fdf3d6;
+  --uhc-error: #c0392b;
+  --uhc-error-bg: #fbeae8;
+  --uhc-info: #00bed5;        /* brand bright blue */
+  --uhc-info-bg: #d9f6fa;
+
+  /* ============================================================
+     SEMANTIC ALIASES — reference these in components
+     ============================================================ */
+
+  /* Text */
+  --text-primary: var(--uhc-ink);
+  --text-secondary: var(--uhc-gray-700);
+  --text-muted: var(--uhc-gray-500);
+  --text-on-brand: var(--uhc-white);
+  --text-link: var(--uhc-blue);
+  --text-brand: var(--uhc-blue);
+
+  /* Surfaces */
+  --surface-page: var(--uhc-warm-white);
+  --surface-card: var(--uhc-white);
+  --surface-sunken: var(--uhc-gray-50);
+  --surface-brand: var(--uhc-blue);
+  --surface-brand-subtle: var(--uhc-blue-50);
+  --surface-accent-sky: var(--uhc-sky-blue);
+
+  /* Borders */
+  --border-subtle: var(--uhc-gray-200);
+  --border-default: var(--uhc-gray-300);
+  --border-strong: var(--uhc-gray-400);
+  --border-brand: var(--uhc-blue);
+  --border-focus: var(--uhc-bright-blue);
+
+  /* Interactive (primary action) */
+  --action-primary: var(--uhc-blue);
+  --action-primary-hover: var(--uhc-blue-500);
+  --action-primary-press: var(--uhc-blue-700);
+
+  /* Accent action (CTA energy) */
+  --action-accent: var(--uhc-orange);
+  --action-accent-hover: #e8521f;
+  --action-accent-press: #cf4715;
+}

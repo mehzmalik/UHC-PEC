@@ -1,0 +1,63 @@
+/* ============================================================
+   UHC Typography Tokens
+   Display / Headline → UHC Serif Headline
+   UI / Body / Labels  → UHC Sans
+   ============================================================ */
+
+:root {
+  /* --- Families --- */
+  --font-serif-display: "UHC Serif Headline", Georgia, "Times New Roman", serif;
+  --font-sans: "UHC Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace;
+
+  /* --- Weights --- */
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* --- Type scale (rem, 16px base) --- */
+  --text-2xs: 0.6875rem;  /* 11px */
+  --text-xs:  0.75rem;    /* 12px */
+  --text-sm:  0.875rem;   /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-md:  1.125rem;   /* 18px */
+  --text-lg:  1.25rem;    /* 20px */
+  --text-xl:  1.5rem;     /* 24px */
+  --text-2xl: 1.875rem;   /* 30px */
+  --text-3xl: 2.25rem;    /* 36px */
+  --text-4xl: 3rem;       /* 48px */
+  --text-5xl: 3.75rem;    /* 60px */
+  --text-6xl: 4.5rem;     /* 72px */
+
+  /* --- Line heights --- */
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* --- Letter spacing --- */
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.04em;
+  --tracking-caps: 0.08em;   /* for all-caps eyebrows / labels */
+
+  /* ============================================================
+     SEMANTIC TYPE ROLES
+     ============================================================ */
+  --type-display-font: var(--font-serif-display);
+  --type-display-weight: var(--weight-semibold);
+  --type-display-leading: var(--leading-tight);
+  --type-display-tracking: var(--tracking-tight);
+
+  --type-heading-font: var(--font-sans);
+  --type-heading-weight: var(--weight-semibold);
+  --type-heading-leading: var(--leading-snug);
+
+  --type-body-font: var(--font-sans);
+  --type-body-weight: var(--weight-medium);
+  --type-body-leading: var(--leading-normal);
+
+  --type-eyebrow-font: var(--font-sans);
+  --type-eyebrow-weight: var(--weight-bold);
+  --type-eyebrow-tracking: var(--tracking-caps);
+}

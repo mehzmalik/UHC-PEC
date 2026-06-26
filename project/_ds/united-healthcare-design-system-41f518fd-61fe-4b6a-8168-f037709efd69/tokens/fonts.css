@@ -1,0 +1,63 @@
+/* ============================================================
+   UHC Brand Webfonts
+   UHC Sans  — primary UI / body typeface (Medium, SemiBold, Bold)
+   UHC Serif Headline — editorial display serif (Semibold only)
+   ============================================================ */
+
+@font-face {
+  font-family: "UHC Sans";
+  src: url("../assets/fonts/UHCSans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UHC Sans";
+  src: url("../assets/fonts/UHCSans-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UHC Sans";
+  src: url("../assets/fonts/UHCSans-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UHC Sans";
+  src: url("../assets/fonts/UHCSans-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UHC Sans";
+  src: url("../assets/fonts/UHCSans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UHC Sans";
+  src: url("../assets/fonts/UHCSans-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UHC Serif Headline";
+  src: url("../assets/fonts/UHCSerifHeadline-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UHC Serif Headline";
+  src: url("../assets/fonts/UHCSerifHeadline-SemiboldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}

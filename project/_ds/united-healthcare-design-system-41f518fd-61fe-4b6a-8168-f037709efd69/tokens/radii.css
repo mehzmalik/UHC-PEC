@@ -1,0 +1,21 @@
+/* ============================================================
+   UHC Radii Tokens
+   UHC leans on soft, friendly but restrained corners.
+   ============================================================ */
+
+:root {
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-pill: 999px;   /* fully-rounded buttons & chips */
+  --radius-circle: 50%;
+
+  /* Semantic */
+  --radius-button: var(--radius-pill);
+  --radius-input: var(--radius-md);
+  --radius-card: var(--radius-lg);
+  --radius-control: var(--radius-sm);
+}

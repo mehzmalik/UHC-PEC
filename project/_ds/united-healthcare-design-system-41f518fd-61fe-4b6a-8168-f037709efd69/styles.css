@@ -1,0 +1,13 @@
+/* ============================================================
+   United Healthcare Design System — global stylesheet entry
+   Consumers link THIS file only. Imports below ship to them.
+   ============================================================ */
+
+@import "tokens/fonts.css";
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";
+@import "tokens/radii.css";
+@import "tokens/shadows.css";
+@import "tokens/motion.css";
+@import "tokens/base.css";

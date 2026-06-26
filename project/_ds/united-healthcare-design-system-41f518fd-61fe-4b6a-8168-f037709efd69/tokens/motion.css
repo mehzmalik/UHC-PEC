@@ -1,0 +1,21 @@
+/* ============================================================
+   UHC Motion Tokens
+   Calm, confident, healthcare-appropriate motion.
+   No bounces; gentle ease-out fades and slides.
+   ============================================================ */
+
+:root {
+  --duration-fast: 120ms;   /* @kind other */
+  --duration-base: 200ms;   /* @kind other */
+  --duration-slow: 320ms;   /* @kind other */
+  --duration-slower: 500ms; /* @kind other */
+
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);     /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);       /* @kind other */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);           /* @kind other */
+
+  --transition-base: all var(--duration-base) var(--ease-standard);
+  --transition-color: color var(--duration-fast) var(--ease-standard),
+                      background-color var(--duration-fast) var(--ease-standard),
+                      border-color var(--duration-fast) var(--ease-standard);
+}
